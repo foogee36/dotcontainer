@@ -1,0 +1,35 @@
+# ============
+# dotmultipas utility
+# ============
+alias wagaya='/usr/bin/git --git-dir=$HOME/.mpcfg/ --work-tree=${HOME}'
+
+# ============
+# git
+# ============
+alias g='git'
+alias ga='git add'
+alias gau='git add -u'
+alias gcm='git commit -m'
+alias gcam='git commit -am'
+alias gcae='git commit --allow-empty'
+alias gdc='git diff --cached'
+alias gdn='git diff --name-only'
+alias gf='git fetch -p'
+alias gl='git log'
+alias glno='git log --name-only'
+alias glg='git log --graph --oneline --decorate --all'
+alias glom='git fetch && git log origin/master'
+alias glss='git log --show-signature'
+alias gs='git status'
+alias gg='git grep'
+alias ggl='git grep -l'
+
+# ============
+# ghq
+# ============
+alias gget='ghq get'
+
+# ============
+# ghq/fzf
+# ============
+alias cdg='cd $(ghq root)/$(ghq list | fzf)'

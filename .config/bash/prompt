@@ -1,0 +1,3 @@
+GIT_PS1_SHOWDIRTYSTATE=true
+GIT_PS1_SHOWCOLORHINTS=true
+PROMPT_COMMAND="__git_ps1 '\n\h:\033[36m\]\w\033[00m\]' ' \\n\\\$ '"
